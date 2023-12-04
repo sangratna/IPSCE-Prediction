@@ -5,6 +5,8 @@ import pickle
 # Load the model
 model = pickle.load(open('regressor.pkl', 'rb'))
 
+st.title("Indoor Solar Cell Efficiency Prediction App")
+
 # Define a mapping for Light_source
 light_source_mapping = {'LED': 0, 'FL': 1, 'Halogen': 2}
 
