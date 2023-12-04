@@ -1,5 +1,6 @@
 pandas
 streamlit
-Pickle
+Pillow
+pickle
 scikit-learn
 numpy
